@@ -1,0 +1,15 @@
+#mainsection #about {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 25px;
+}
+#mainsection #about p {
+    font-size: 1.7em;
+    font-family: cursive;
+}
+footer{
+    bottom: 0;
+}

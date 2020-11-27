@@ -1,0 +1,100 @@
+/*HEADER*/
+#header .logo {
+    margin-left: 2%;
+    height: 65px;
+    width: 33%;
+}
+#header #heading {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    width: 65%;
+    font-size: 1.4em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+  
+
+
+/*NAVIGATION*/
+#navigation #lists a {
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    /* margin: 0px 100px; */
+}
+
+/*BODY*/
+#inquiryform p {
+    font-size: 2.4em;
+    margin: 10px 0px;
+}
+#inquiryform form {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+#inquiryform form .area input {
+    margin-top: 10px;
+    height: 35px;
+    padding-left: 15px;
+    font-family: monospace;
+    font-size: 1.5em;
+    border-radius: 20px;
+    border: 2px solid darkcyan;
+}
+#inquiryform form .area select {
+    margin-top: 10px;
+    height: 35px;
+    padding-left: 15px;
+    font-family: monospace;
+    font-size: 1.5em;
+    border-radius: 20px;
+    border: 2px solid darkcyan;
+}
+#inquiryform form .area textarea {
+    margin-top: 10px;
+    /* height: 35px; */
+    padding-left: 15px;
+    font-family: monospace;
+    font-size: 1.5em;
+    border-radius: 20px;
+    border: 2px solid darkcyan;
+}
+#inquiryform form .area input {
+    margin-top: 10px;
+    height: 35px;
+    /* padding-left: 15px; */
+    font-family: monospace;
+    font-size: 1.5em;
+    border-radius: 20px;
+    border: 2px solid darkcyan;
+}
+
+/*FOOTER*/
+footer #topfooter {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+}
+footer #topfooter #contact {
+    width: 100%;
+    margin-bottom: 20px;
+}
+footer #topfooter #quicklinks {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#whatsapp {
+    position: fixed;
+    height: 45px;
+    width: 45px;
+    right: 10px;
+    bottom: 10px;
+}

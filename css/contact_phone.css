@@ -1,0 +1,115 @@
+/*HEADER*/
+#header .logo {
+    margin-left: 2%;
+    height: 65px;
+    width: 33%;
+}
+#header #heading {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    width: 65%;
+    font-size: 1.4em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+  
+
+
+/*NAVIGATION*/
+#navigation #lists a {
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    /* margin: 0px 100px; */
+}
+
+
+
+
+
+
+
+
+/*BODY*/
+#mainsection {
+    width: 90%;
+    margin: 50px auto 0px;
+    border: 2px solid black;
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+    background-color: lightgoldenrodyellow;
+}
+#mainsection #contact {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    /* padding-left: 3%; */
+    padding: 0 7px;
+}
+#mainsection #contact #heading {
+    font-size: 2.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 25px 0px;
+}
+#mainsection #contact #companyname {
+    font-size: 1.6em;
+    color: darkred;
+    margin-bottom: 30px;
+}
+#mainsection #contact #contactdetails {
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#mainsection #map {
+    width: 100%;
+    height: 250px;
+    margin: 20px 0px 20px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    /* padding-right: 30px; */
+    justify-content: flex-end;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*FOOTER*/
+footer #topfooter {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+}
+footer #topfooter #contact {
+    width: 100%;
+    margin-bottom: 20px;
+}
+footer #topfooter #quicklinks {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#whatsapp {
+    position: fixed;
+    height: 45px;
+    width: 45px;
+    right: 10px;
+    bottom: 10px;
+}

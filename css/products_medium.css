@@ -1,0 +1,372 @@
+/*HEADER*/
+#header .logo {
+    margin-left: 2%;
+    height: 65px;
+    width: 18%;
+}
+#header #heading {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    font-size: 3em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+  
+
+
+/*NAVIGATION*/
+#navigation #lists a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    /* margin: 0px 100px; */
+}
+
+
+
+
+
+
+
+/*BODY*/
+/*common*/
+
+#industrial #oneproduct1 {
+    background-color: rgb(194, 233, 121);
+    height: 415px;
+    width: 100%;
+    border: 2px solid green;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+#industrial #oneproduct2 {
+    background-color: rgb(194, 233, 121);
+    height: 415px;
+    width: 100%;
+    border: 2px solid green;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+#industrial #oneproduct3 {
+    background-color: rgb(194, 233, 121);
+    height: 415px;
+    width: 100%;
+    border: 2px solid green;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+#commercial #twoproduct1 {
+    background-color: rgb(194, 233, 121);
+    height: 415px;
+    width: 100%;
+    border: 2px solid green;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+#commercial #twoproduct2 {
+    background-color: rgb(194, 233, 121);
+    height: 415px;
+    width: 100%;
+    border: 2px solid green;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+#commercial #twoproduct3 {
+    background-color: rgb(194, 233, 121);
+    height: 415px;
+    width: 100%;
+    border: 2px solid green;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+#commercial #twoproduct4 {
+    background-color: rgb(194, 233, 121);
+    height: 415px;
+    width: 100%;
+    border: 2px solid green;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+#commercial #twoproduct5 {
+    background-color: rgb(194, 233, 121);
+    height: 415px;
+    width: 100%;
+    border: 2px solid green;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+#commercial #twoproduct6 {
+    background-color: rgb(194, 233, 121);
+    height: 415px;
+    width: 100%;
+    border: 2px solid green;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+#commercial #twoproduct7 {
+    background-color: rgb(194, 233, 121);
+    height: 415px;
+    width: 100%;
+    border: 2px solid green;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+
+#hanging #threeproduct1 {
+    background-color: rgb(194, 233, 121);
+    height: 415px;
+    width: 100%;
+    border: 2px solid green;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+#health #fourthproduct1 {
+    background-color: rgb(194, 233, 121);
+    height: 415px;
+    width: 100%;
+    border: 2px solid green;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+#jewellery #fifthproduct1 {
+    background-color: rgb(194, 233, 121);
+    height: 415px;
+    width: 100%;
+    border: 2px solid green;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+#jewellery #fifthproduct2 {
+    background-color: rgb(194, 233, 121);
+    height: 415px;
+    width: 100%;
+    border: 2px solid green;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+#jewellery #fifthproduct3 {
+    background-color: rgb(194, 233, 121);
+    height: 415px;
+    width: 100%;
+    border: 2px solid green;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+#jewellery #fifthproduct4 {
+    background-color: rgb(194, 233, 121);
+    height: 415px;
+    width: 100%;
+    border: 2px solid green;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#mainsection {
+    width: 90%;
+    margin: 40px auto 0px;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black; */
+}
+h2{
+    font-size: 1em;
+    text-align: center;
+}
+
+#industrial {
+    border: 2px solid red;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 0px;
+    border-radius: 50px;
+}
+#commercial {
+    border: 2px solid red;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 36px;
+    border-radius: 50px;
+}
+#hanging {
+    border: 2px solid red;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 36px;
+    border-radius: 50px;
+}
+#health {
+    border: 2px solid red;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 36px;
+    border-radius: 50px;
+}
+#jewellery{
+    border: 2px solid red;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 36px;
+    border-radius: 50px;
+}
+.productimg {
+    /* border: 2px solid pink; */
+    width: 50%;
+    height: 50%;
+    margin: 7px auto 0;
+    /* height: 115px; */
+    padding: 0;
+}
+.modelname {
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    margin: 10px 0;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.productdetails {
+    width: 100%;
+    display: flex;
+    height: 40%;
+    align-items: center;
+    font-size: 1em;
+    justify-content: center;
+}
+.inquiry {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 2em;
+    height: 15%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*FOOTER*/
+footer #topfooter {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+}
+footer #topfooter #contact {
+    width: 100%;
+    margin-bottom: 20px;
+}
+footer #topfooter #quicklinks {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#whatsapp {
+    position: fixed;
+    height: 45px;
+    width: 45px;
+    right: 10px;
+    bottom: 10px;
+}

@@ -1,0 +1,455 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    width: 100%;
+    height: 65px;
+}
+#header .logo {
+    margin-left: 2%;
+    height: 65px;
+    width: 10%;
+}
+#header .logo img{
+    height: 100%;
+    width: 100%;
+}
+#header #heading{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    width: 88%;
+    font-size: 2.6em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+/* Navigation Menu  */
+#navigation{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    margin-top: 20px;
+    position: sticky;
+    top: 0;
+
+}
+#navigation #lists{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+#navigation #lists .a{
+    margin: auto;
+}
+#navigation #lists a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3em;
+    /* margin: 0px 100px; */
+
+}
+#navigation #lists a:hover {
+    color: red;
+}
+
+
+
+/*BODY*/
+#whatsapp{
+    position: fixed;
+    height: 55px;
+    width: 55px;
+    right: 10px;
+    bottom: 10px;
+}
+#whatsapp img{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+#mainsection{
+    width: 90%;
+    margin: 20px auto 0px;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black; */
+}
+.notrequired{
+    visibility: hidden;
+}
+
+/*types of scales 1*/
+#industrial{
+    border: 2px solid red;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 50px;
+    border-radius: 50px;
+}
+/*oneproduct1*/
+#industrial #oneproduct1{
+    background-color: rgb(194, 233, 121);
+    height: 200px;
+    width: 100%;
+    border: 2px solid green;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0px;
+}
+.productimg{
+    /* border: 2px solid pink; */
+    width: 15%;
+    padding: 20px;
+}
+.productimg img{
+    /* border: 2px solid black; */
+    border-radius: 35px;
+    height: 100%;
+    width: 100%;
+}
+.modelname{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.productdetails{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
+    justify-content: center;
+}
+.inquiry{
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 2em;
+}
+.inquiry a{
+    color: red;
+    text-decoration: none;
+}
+.inquiry a:hover{
+    color: blue;
+    text-decoration: none;
+}
+/*oneproduct2*/
+#industrial #oneproduct2{
+    background-color: rgb(194, 233, 121);
+    height: 200px;
+    width: 100%;
+    border-radius: 20px;
+    border: 2px solid green;
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0px;
+
+}
+#industrial #oneproduct3{
+    background-color: rgb(194, 233, 121);
+    height: 200px;
+    width: 100%;
+    border-radius: 20px;
+    border: 2px solid green;
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0px;
+}
+
+
+
+
+/*types of scales 2*/
+#commercial{
+    border: 2px solid red;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 80px;
+    border-radius: 50px;
+}
+#commercial #twoproduct1{
+    background-color: rgb(194, 233, 121);
+    height: 200px;
+    width: 100%;
+    border-radius: 20px;
+    border: 2px solid green;
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0px;
+}
+#commercial #twoproduct2{
+    background-color: rgb(194, 233, 121);
+    height: 200px;
+    width: 100%;
+    border-radius: 20px;
+    border: 2px solid green;
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0px;
+}
+#commercial #twoproduct3{
+    background-color: rgb(194, 233, 121);
+    height: 200px;
+    width: 100%;
+    border-radius: 20px;
+    border: 2px solid green;
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0px;
+}
+#commercial #twoproduct4{
+    background-color: rgb(194, 233, 121);
+    height: 200px;
+    width: 100%;
+    border-radius: 20px;
+    border: 2px solid green;
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0px;
+}
+#commercial #twoproduct5{
+    background-color: rgb(194, 233, 121);
+    height: 200px;
+    width: 100%;
+    border-radius: 20px;
+    border: 2px solid green;
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0px;
+}
+#commercial #twoproduct6{
+    background-color: rgb(194, 233, 121);
+    height: 200px;
+    width: 100%;
+    border-radius: 20px;
+    border: 2px solid green;
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0px;
+}
+#commercial #twoproduct7{
+    background-color: rgb(194, 233, 121);
+    height: 200px;
+    width: 100%;
+    border-radius: 20px;
+    border: 2px solid green;
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0px;
+}
+
+
+
+
+/*types of scales 3*/
+#hanging{
+    border: 2px solid red;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 80px;
+    border-radius: 50px;
+}
+#hanging #threeproduct1{
+    background-color: rgb(194, 233, 121);
+    height: 200px;
+    width: 100%;
+    border-radius: 20px;
+    border: 2px solid green;
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0px;
+}
+
+
+
+
+/*types of scales 4*/
+#health{
+    border: 2px solid red;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 80px;
+    border-radius: 50px;
+}
+#health #fourthproduct1{
+    background-color: rgb(194, 233, 121);
+    height: 200px;
+    width: 100%;
+    border-radius: 20px;
+    border: 2px solid green;
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0px;
+}
+
+
+
+
+/*types of scales 5*/
+#jewellery{
+    border: 2px solid red;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 80px;
+    border-radius: 50px;
+}
+#jewellery #fifthproduct1{
+    background-color: rgb(194, 233, 121);
+    height: 200px;
+    width: 100%;
+    border-radius: 20px;
+    border: 2px solid green;
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0px;
+}
+#jewellery #fifthproduct2{
+    background-color: rgb(194, 233, 121);
+    height: 200px;
+    width: 100%;
+    border: 2px solid green;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0px;
+}
+#jewellery #fifthproduct3{
+    background-color: rgb(194, 233, 121);
+    height: 200px;
+    width: 100%;
+    border: 2px solid green;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0px;
+}
+#jewellery #fifthproduct4{
+    background-color: rgb(194, 233, 121);
+    height: 200px;
+    width: 100%;
+    border: 2px solid green;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER  */
+footer{
+    margin-top: 30px;
+    background-color: black;
+    color: blanchedalmond;
+    bottom: 0;
+}
+footer #topfooter{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: auto;
+}
+footer #topfooter #contact{
+    width: 50%;
+    margin-bottom: 20px;
+}
+footer #topfooter .footerheading{
+    font-size: 2em;
+    padding: 10px 0px;
+}
+footer #topfooter #contact #companyname{
+    font-size: 1.3em;
+    color: blue;
+    font-family: sans-serif;
+    padding: 15px 0px;
+}
+/* footer #topfooter #contact #contactdetails{
+    padding-bottom: 10px;
+} */
+
+
+footer #topfooter #quicklinks{
+    width: 50%;
+    margin-bottom: 20px;
+}
+footer #topfooter #quicklinks #links{
+    margin-top: 10px;
+    list-style: none;
+}
+footer #topfooter #quicklinks #links li{
+    margin: 2% 0%;
+}
+footer #topfooter #quicklinks #links li a{
+    text-decoration: none;
+    color: red;
+    font-size: 1.2em;
+}
+footer #topfooter #quicklinks #links li a:hover{
+    color: chartreuse;
+}
+
+
+footer #bottomfooter{
+    text-align: right;
+    margin-right: 15px;
+    padding-bottom: 10px;
+    font-size: .8em;
+}
